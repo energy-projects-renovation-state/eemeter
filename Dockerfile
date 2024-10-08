@@ -1,4 +1,4 @@
-FROM python:3.10
+FROM python:3.13
 
 RUN set -ex && pip install pip pipenv --upgrade
 
